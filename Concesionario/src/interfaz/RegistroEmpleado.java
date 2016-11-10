@@ -26,6 +26,7 @@ public class RegistroEmpleado extends JFrame {
 	private JTextField tfsalario;
 	private JTable table;
 	private JTextField textField;
+	private JTextField tfcodempleado;
 
 	/**
 	 * Launch the application.
@@ -171,6 +172,15 @@ public class RegistroEmpleado extends JFrame {
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"", "Mecanico", "Vendedor", "otro"}));
 		comboBox.setBounds(63, 208, 110, 20);
 		contentPane.add(comboBox);
+		
+		JLabel lbcodempleado = new JLabel("Cod. Empleado");
+		lbcodempleado.setBounds(10, 263, 46, 14);
+		contentPane.add(lbcodempleado);
+		
+		tfcodempleado = new JTextField();
+		tfcodempleado.setBounds(63, 260, 110, 20);
+		contentPane.add(tfcodempleado);
+		tfcodempleado.setColumns(10);
 	}
 }
 
