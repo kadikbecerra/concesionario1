@@ -23,6 +23,7 @@ public class RegistroAuto extends JFrame {
 	private JTextField PrecioCompra;
 	private JTextField Placa;
 	private JTextField Cantidad;
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -134,5 +135,19 @@ public class RegistroAuto extends JFrame {
 		JButton btnInsertar = new JButton("Insertar");
 		btnInsertar.setBounds(296, 103, 89, 23);
 		contentPane.add(btnInsertar);
+		
+		textField = new JTextField();
+		textField.setBounds(129, 262, 86, 20);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblMarcaAuto = new JLabel("Marca auto");
+		lblMarcaAuto.setBounds(27, 265, 62, 14);
+		contentPane.add(lblMarcaAuto);
+		
+		JButton btnNuevo = new JButton("Nuevo");
+		
+		btnNuevo.setBounds(296, 10, 89, 23);
+		contentPane.add(btnNuevo);
 	}
 }
