@@ -5,7 +5,7 @@ public class Principal {
 	
 	public static void main(String [] arg){
 		
-		new VentanaPrincipal().setAlwaysOnTop(true);
+		new VentanaPrincipal().setVisible(true);
 		
 	}
 
