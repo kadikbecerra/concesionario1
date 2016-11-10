@@ -28,7 +28,7 @@ public class registroCliente extends JPanel {
 		setLayout(null);
 		panelRergistroCliente=new JPanel();
 		panelRergistroCliente.setLayout(null);
-		panelRergistroCliente.setBounds(100, 100, 1000 ,1400);
+		panelRergistroCliente.setBounds(100, 100, 600 ,800);
 		panelRergistroCliente.setBackground(Color.red);
 		
 		JLabel lblNewLabel = new JLabel("Nombre");
